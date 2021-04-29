@@ -4,7 +4,7 @@ class Game:
         self.current_level_index = 0
         self.current_level_len = len(levels[0])
 
-    def set_level_index(level_index):
+    def set_level_index(self, level_index):
         self.current_level_index = level_index
         self.current_level_len = len(self.levels[level_index])
 
